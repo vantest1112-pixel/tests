@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
 
 test('Thêm 10 note và tìm kiếm', async ({ page }) => {
-  // 1. Truy cập trang
   await page.goto('https://material.playwrightvn.com/');
 
   // 2. Click vào Bài học 4

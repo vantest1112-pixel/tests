@@ -37,7 +37,7 @@ test('Register Page - nhập thông tin và đăng ký', async ({ page }) => {
   // 10. Upload Profile Picture
   await page
     .getByLabel('Profile Picture')
-    .setInputFiles(path.join(__dirname, 'avatar.png'));
+    .setInputFiles(path.join(Username, 'avatar.png'));
 
   // 11. Nhập Biography
   await page.getByLabel('Biography').fill(
